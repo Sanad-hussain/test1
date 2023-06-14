@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include besto_insurance *.css
+recursive-include besto_insurance *.csv
+recursive-include besto_insurance *.html
+recursive-include besto_insurance *.ico
+recursive-include besto_insurance *.js
+recursive-include besto_insurance *.json
+recursive-include besto_insurance *.md
+recursive-include besto_insurance *.png
+recursive-include besto_insurance *.py
+recursive-include besto_insurance *.svg
+recursive-include besto_insurance *.txt
+recursive-exclude besto_insurance *.pyc
