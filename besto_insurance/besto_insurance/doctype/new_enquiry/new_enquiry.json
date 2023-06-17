@@ -1,0 +1,229 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-15 16:23:34.279614",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "department",
+  "column_break_dtqm8",
+  "list_of_business",
+  "column_break_v62ri",
+  "enquiry_no",
+  "column_break_ishiz",
+  "ref_no",
+  "column_break_utiej",
+  "date",
+  "section_break_s3kdq",
+  "enquiry_type",
+  "class_of_risk",
+  "section_break_cwux3",
+  "formcover",
+  "original_insured",
+  "section_break_section",
+  "reinsured",
+  "section_break2",
+  "insureds_activity",
+  "period",
+  "territorial_scope__situation",
+  "law_and_jurisdiction",
+  "interest",
+  "limit_of_indemnity",
+  "column_break_3",
+  "deductible",
+  "premium",
+  "total_deduction",
+  "estimated_annual_turnover",
+  "commission",
+  "section_break_3",
+  "slip_information"
+ ],
+ "fields": [
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "list_of_business",
+   "fieldtype": "Link",
+   "label": "List of Business",
+   "options": "List of Business"
+  },
+  {
+   "fieldname": "enquiry_type",
+   "fieldtype": "Link",
+   "label": "Enquiry Type",
+   "options": "Enquiry Type"
+  },
+  {
+   "fieldname": "column_break_dtqm8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_v62ri",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "enquiry_no",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Enquiry No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_s3kdq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ishiz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ref_no",
+   "fieldtype": "Int",
+   "label": "Ref No"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_utiej",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "class_of_risk",
+   "fieldtype": "Link",
+   "label": "Class of Risk",
+   "options": "Class of Risk"
+  },
+  {
+   "fieldname": "section_break_cwux3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "formcover",
+   "fieldtype": "Data",
+   "label": "FORM / COVER"
+  },
+  {
+   "fieldname": "original_insured",
+   "fieldtype": "Data",
+   "label": "ORIGINAL INSURED"
+  },
+  {
+   "fieldname": "insureds_activity",
+   "fieldtype": "Data",
+   "label": "INSURED'S ACTIVITY"
+  },
+  {
+   "fieldname": "deductible",
+   "fieldtype": "Data",
+   "label": "DEDUCTIBLE"
+  },
+  {
+   "fieldname": "premium",
+   "fieldtype": "Data",
+   "label": "PREMIUM"
+  },
+  {
+   "fieldname": "total_deduction",
+   "fieldtype": "Data",
+   "label": "TOTAL DEDUCTION"
+  },
+  {
+   "fieldname": "estimated_annual_turnover",
+   "fieldtype": "Data",
+   "label": "ESTIMATED ANNUAL TURNOVER"
+  },
+  {
+   "fieldname": "commission",
+   "fieldtype": "Data",
+   "label": "COMMISSION"
+  },
+  {
+   "fieldname": "period",
+   "fieldtype": "Data",
+   "label": "PERIOD"
+  },
+  {
+   "fieldname": "territorial_scope__situation",
+   "fieldtype": "Data",
+   "label": "TERRITORIAL SCOPE / SITUATION"
+  },
+  {
+   "fieldname": "interest",
+   "fieldtype": "Data",
+   "label": "INTEREST"
+  },
+  {
+   "fieldname": "reinsured",
+   "fieldtype": "Table",
+   "label": "REINSURED",
+   "options": "Enquiry Cedant Detail"
+  },
+  {
+   "fieldname": "limit_of_indemnity",
+   "fieldtype": "Data",
+   "label": "LIMIT OF INDEMNITY"
+  },
+  {
+   "fieldname": "law_and_jurisdiction",
+   "fieldtype": "Data",
+   "label": "LAW AND JURISDICTION"
+  },
+  {
+   "fieldname": "slip_information",
+   "fieldtype": "Table",
+   "label": "Slip Information",
+   "options": "Slip Information"
+  },
+  {
+   "fieldname": "section_break_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break2",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "max_attachments": 5,
+ "modified": "2023-06-17 12:14:11.176973",
+ "modified_by": "Administrator",
+ "module": "Besto Insurance",
+ "name": "New Enquiry",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
